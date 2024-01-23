@@ -3,4 +3,4 @@ pandas
 streamlit
 PIL 
 numpy 
-cv2
+opencv-python
