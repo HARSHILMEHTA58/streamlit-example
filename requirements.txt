@@ -1,6 +1,6 @@
+opencv-python-headless==4.5.4.60
 altair
 pandas
 streamlit
 PIL 
 numpy 
-opencv-python-headless==4.5.1.48
