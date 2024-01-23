@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-import cv2
 
 def main1():
     # Take a picture using st.camera_input
@@ -17,11 +16,10 @@ def main1():
         numpy_image = np.array(pil_image)
 
         # Convert the NumPy array to an OpenCV image (BGR format)
-        opencv_image = cv2.cvtColor(numpy_image, cv2.COLOR_RGB2BGR)
         
         # Now 'opencv_image' is an OpenCV image that you can further process or display
         # For example, you can display the OpenCV image using st.image
-        st.image(opencv_image, caption='Captured Image', channels='BGR')
+        st.image(numpy_image, caption='Captured Image', channels='BGR')
         st.write("HEllo")
     else:
         st.write("NOT hello")
