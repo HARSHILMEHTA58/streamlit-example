@@ -3,4 +3,4 @@ pandas
 streamlit
 PIL 
 numpy 
-opencv-python
+opencv-python-headless==4.5.1.48
