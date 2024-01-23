@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
+import cv2
 
 def main1():
     # Take a picture using st.camera_input
